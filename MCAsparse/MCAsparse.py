@@ -268,7 +268,7 @@ class MCsparse(BaseMCA):
         return self
 
 #------------------------
-    def fit_predict(X):
+    def fit_predict(self, X):
         """
         Fits the graph with clusters and returns the cluster labels.
         Parameters:
